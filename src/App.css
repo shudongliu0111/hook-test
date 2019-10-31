@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+.image{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: absolute;
+  left: 100px;
+
+  transform-origin: 0 50% 0;
+  transform-style: preserve-3d;
+  transition: transform .6s ease-in-out, left .6s ease-in-out, top .6s ease-in-out;
+  
+}
+.stage{
+ 		border: 5px solid black;
+    width: 1800px;
+    height: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
